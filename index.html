@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portofolio</title>
+    <link rel="stylesheet" href="./index.css" />
+    <script src="https://kit.fontawesome.com/90715087c0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav>
+        <h2 id="logo">Giannis Kopsaftis</h2>
+        <ul class="navigation-items">
+            <li class="navigation-item"><a href="#about-me">About Me</a></li>
+            <li class="navigation-item"><a href="#projects">Projects</a></li>
+            <li class="navigation-item"><a href="#programming-skills">Programming Skills</a></li>
+            <li class="navigation-item"><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="about-me">
+            <div class="about-me-container">
+                <div class="about-me-text-container">
+                    <h2>About Me</h2>
+                    <p>
+                        Hello! I'm Giannis Kopsaftis and am a businessman - crypto investor and self-taught programmer.
+                    </p>
+                    <p>I am running my businesses on a small island in Greece called Kythera which is near Crete!
+                        I started using a computer from the age of 3. Since then the were not even a single day that I
+                        didn't use a computer. I am very excited and curious about them and I want to be a part of this
+                        technology.
+                        The need of learning Programming came natural to me and I started my journey on Code-Academy
+                        platform. By the time I am writting this I am still very early on the 'game'. I am looking to
+                        learn many languages and work for a big tech company or even build my own tech company.
+                    </p>
+                    <p>
+                        In my free time I like to read about the universe,scinetific developments and programming. I
+                        also enjoy going for spearfishing and play some video games.
+                    </p>
+                </div>
+                <img src="./pictures/me.jpeg" alt="A photo of Giannis Kopsaftis" class="portrait" />
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <details class="project">
+                <summary class="project-title">
+                    <h3>Belvedere Restaurant</h3>
+                </summary>
+                <img src="./pictures/BELVEDERE logo_page-0001.jpg" alt="Belvedere Restaurant Logo" class="project-image" />
+                <p class="project-decription">
+                    I bought the restaurant in 2023 from the previous owner.
+                    I managed to make some major changes that turned the restaurant into a profitable business.
+                </p>
+            </details>
+            <details class="project">
+                <summary class="project-title">
+                    <h3>Chalkoo Beach</h3>
+                </summary>
+                <img src="./pictures/chalkoo logo.jpeg" alt="Chalkoo Beach Logo" class="project-image" />
+                <p class="project-decription">
+                    Running the business through a strong partnerships base since 2020.
+                </p>
+
+            </details>
+            <details class="project">
+                <summary class="project-title">
+                    <h3>Piatsa Beach Bar</h3>
+                </summary>
+                <img src="./pictures/piatsalogo.jpeg" alt="Piatsa Beach Bar Logo" class="project-image" />
+                <p class="project-decription">
+                    Family business runned by me since 2019.
+                </p>
+            </details>
+        </section>
+
+        <section id="skills">
+            <h2>Programming Skills</h2>
+            <div id="skills-container">
+                <i class="fab fa-html5"></i>
+                <i class="fa-brands fa-css3-alt"></i>
+                <i class="fab fa-js"></i>
+                <i class="fab fa-git"></i>
+                <i class="fab fa-chrome"></i>
+                <i class="fas fa-terminal"></i>
+                <i class="fab fa-npm"></i>
+                <i class="fab fa-node"></i>
+                <i class="fab fa-github"></i>
+            </div>
+        </section>
+    </main>
+    <button class="button" onclick="myFunction()">Dark Mode</button>
+    <footer>Made with <span class="heart">♥</span> in <a href="https://www.visitgreece.gr/" target="_blank">Greece</a></footer>
+</body>
+<script>
+    function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+
+</html>
